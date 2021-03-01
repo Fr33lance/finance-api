@@ -37,7 +37,8 @@ exports.logIn =  (req, res, next)=>{
                   
                     return res.status(201).json({
                         success: true,
-                        message: 'log in successful'
+                        message: 'log in successful',
+                        data: user
                     })
                 }
             })
