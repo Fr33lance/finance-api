@@ -30,7 +30,7 @@ exports.getGoals = async (req, res, next)=>{
 //get all the goals for the user
 exports.AddGoal = async (req, res, next)=>{
     try{
-        const { GoalName, Amount, createdAt,  dueAt, user_id} = req.body;
+        const { GoalName, Amount,addedAmount,type, createdAt,  dueAt, user_id} = req.body;
 
         const goals = await Goals.create(req.body);
 
