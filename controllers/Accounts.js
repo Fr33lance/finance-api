@@ -79,7 +79,7 @@ exports.getAccounts = async (req, res, next)=>{
 
 exports.updateAccount = async (req, res, next)=>{
     try {
-        const { AccountName, Currency,OpeningBalance, user_id} = req.body;
+        const { OpeningBalance} = req.body;
 
         const accounts = await Accounts.findById(req.params.id);
 
