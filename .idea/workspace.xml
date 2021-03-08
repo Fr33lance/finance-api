@@ -20,25 +20,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f16af1e1-e8e1-4dd3-ae32-f5f46eeea807" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/finance-api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/config.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/db.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/passport.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/Accounts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/Auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/Goals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/transaction.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Accounts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Goals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Transactions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/Goals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/Transactions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinanceManagerApp/app/auth/Registered.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinanceManagerApp/app/services/authServices.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinanceManagerApp/app/services/financeServices.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceManagerApp/.idea/FinanceManagerApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceManagerApp/.idea/FinanceManagerApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceManagerApp/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceManagerApp/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceManagerApp/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceManagerApp/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceManagerApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceManagerApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceManagerApp/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceManagerApp/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceManagerApp/app/accounts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceManagerApp/app/accounts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceManagerApp/app/auth/LogIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceManagerApp/app/auth/LogIn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceManagerApp/app/auth/SignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceManagerApp/app/auth/SignUp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceManagerApp/app/goals/ByCategory.js" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceManagerApp/app/goals/ByCategory.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceManagerApp/app/goals/ByTimeline.js" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceManagerApp/app/goals/ByTimeline.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceManagerApp/app/portal/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceManagerApp/app/portal/Dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceManagerApp/app/reports/ReportsIndex.js" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceManagerApp/app/reports/ReportsIndex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceManagerApp/app/reports/types/ExpenseSummary.js" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceManagerApp/app/reports/types/ExpenseSummary.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceManagerApp/app/reports/types/IncomeExpense.js" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceManagerApp/app/reports/types/IncomeExpense.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceManagerApp/app/reports/types/IncomeSummary.js" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceManagerApp/app/reports/types/IncomeSummary.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceManagerApp/app/reports/types/ProfitLoss.js" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceManagerApp/app/reports/types/ProfitLoss.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceManagerApp/app/settings/SettingsIndex.js" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceManagerApp/app/settings/SettingsIndex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceManagerApp/app/transactions/CreateExpense.js" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceManagerApp/app/transactions/CreateExpense.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceManagerApp/app/transactions/CreateIncome.js" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceManagerApp/app/transactions/CreateIncome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceManagerApp/app/transactions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceManagerApp/app/transactions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceManagerApp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceManagerApp/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceManagerApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceManagerApp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceManagerApp/yarn-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceManagerApp/yarn-error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceManagerApp/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceManagerApp/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/finance-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/finance-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +72,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FinanceManagerApp" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -71,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614505680750</updated>
-      <workItem from="1614505691493" duration="1366000" />
+      <workItem from="1614505691493" duration="3973000" />
     </task>
     <servers />
   </component>
@@ -93,6 +105,14 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="448" y="185" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614509783612">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="448" y="185" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1614509783612" />
+    <state x="463" y="138" key="FileChooserDialogImpl" timestamp="1614541698068">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="463" y="138" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1614541698068" />
     <state width="1345" height="192" key="GridCell.Tab.0.bottom" timestamp="1614506810148">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

@@ -78,6 +78,32 @@ exports.checkGoal = async (req, res, next)=>{
     }
 }
 
+exports.updateGoal = async (req, res, next)=>{
+    try {
+        const {addedAmount} = req.body;
+
+        const goals = await Goals.findById(req.params.id);
+
+        if (!goals){
+            return res.status(404).json({
+                success: false,
+                error: 'No Goal Found'
+            })
+        }
+
+        await goals.updateOne(req.body);
+        return res.status(200).json({
+            success: true,
+            data: goals
+        });
+    }catch (err){
+        return res.status(500).json({
+            success: false,
+            error: 'Server Error'
+        })
+    }
+}
+
 //get all the goals for the user
 exports.deleteGoal = async (req, res, next)=>{ 
     try {
@@ -86,7 +112,7 @@ exports.deleteGoal = async (req, res, next)=>{
         if (!goals){
             return res.status(404).json({
                 success: false,
-                error: 'No Transaction Found'
+                error: 'No Goal Found'
             })
         }
 
@@ -102,4 +128,3 @@ exports.deleteGoal = async (req, res, next)=>{
         })
     }
 }
-

@@ -1,4 +1,6 @@
 const mongoose = require('mongoose');
+var dateFormat = require("dateformat");
+var now = new Date();
 
 
 const GoalsSchema = new mongoose.Schema({
@@ -24,7 +26,7 @@ const GoalsSchema = new mongoose.Schema({
     },
     createdAt: {
         type: Date,
-        default: Date.now
+        default: dateFormat(now)
     },
     dueAt:{
         type: Date,
@@ -32,7 +34,7 @@ const GoalsSchema = new mongoose.Schema({
     },
     user_id:{
         type: String,
-        required: [true, 'please enter the user ID for the transaction'],
+        required: [true, 'please enter the user ID for the goal'],
         trim: true,
     }
 })
