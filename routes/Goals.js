@@ -6,7 +6,7 @@ router.post('/goals', function(res, req){
     addGoal
 });
 router.get('/goals', function(res, req){ getGoals});
-router.get('goals/:id', function (res, req){checkGoal});
+router.post('updategoal/:id', function (res, req){updateGoal});
 router.delete('goals/:id', function(res, req){ deleteGoal});
 
 ///////////////////////////authentification routes//////////////
