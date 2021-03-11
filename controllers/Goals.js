@@ -80,7 +80,7 @@ exports.checkGoal = async (req, res, next)=>{
 
 exports.updateGoal = async (req, res, next)=>{
     try {
-        const {addedAmount} = req.body;
+        const {addedAmount, status} = req.body;
 
         const goals = await Goals.findById(req.params.id);
 

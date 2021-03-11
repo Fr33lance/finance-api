@@ -20,16 +20,16 @@ const TransactionSchema = new mongoose.Schema({
         required: [true, 'please enter the category of the expense'],
         trim: true
     },
-    Reccuring: {
-        type: String,
-        required: [false, 'enter frequency of expense'],
-        trim: true,
-    },
-    PaymentMethod:{
-        type: String,
-        required: [true, 'enter payment method'],
-        trim: true
-    },
+    // Reccuring: {
+    //     type: String,
+    //     required: [false, 'enter frequency of expense'],
+    //     trim: true,
+    // },
+    // PaymentMethod:{
+    //     type: String,
+    //     required: [true, 'enter payment method'],
+    //     trim: true
+    // },
     type:{
         type: String,
         trim: true

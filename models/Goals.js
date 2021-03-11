@@ -24,6 +24,11 @@ const GoalsSchema = new mongoose.Schema({
         trim: true,
         required: [true, 'Type of goal'],
     },
+    status: {
+         type: String,
+        trim: true,
+        default: 'not-complete'
+    },
     createdAt: {
         type: Date,
         default: dateFormat(now)
